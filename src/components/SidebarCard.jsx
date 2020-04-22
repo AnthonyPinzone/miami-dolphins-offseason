@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./SidebarCard.module.scss";
 
 function SidebarCard(props) {
-    console.log(props);
     return (
         <div className={styles.sidebarCard}>
             <h3 className={styles.sidebarCardTitle}>{props.title}</h3>
