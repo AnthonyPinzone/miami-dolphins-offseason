@@ -1,17 +1,49 @@
 import React from "react";
+import SidebarPlayerPanel from "./SidebarPlayerPanel";
 import styles from "./SidebarCard.module.scss";
 
 function SidebarCard(props) {
+    const [expanded, setExpanded] = React.useState();
+
+    const handleChange = (panel) => (event, newExpanded) => {
+        setExpanded(newExpanded ? panel : false);
+    };
+
+    console.log(props.title);
+
     return (
         <div className={styles.sidebarCard}>
             <h3 className={styles.sidebarCardTitle}>{props.title}</h3>
-            <ul className={styles.sidebarCardList}>
-                {props.players.map((player) => (
-                    <li
-                        key={player.name}
-                    >{`${player.name}, ${player.position}`}</li>
-                ))}
-            </ul>
+            <div
+                className={`${styles.sidebarCardList} ${
+                    props.title === "Additions"
+                        ? styles.sidebarCardListAdditions
+                        : ""
+                }`}
+            >
+                {props.players.map((player) => {
+                    const playerEl =
+                        props.title === "Additions" ? (
+                            <SidebarPlayerPanel
+                                {...player}
+                                key={player.id}
+                                expanded={expanded}
+                                handleChange={handleChange}
+                            />
+                        ) : (
+                            <div
+                                className={styles.sidebarCardListItem}
+                                key={player.id}
+                            >
+                                <span className={styles.playerPosition}>
+                                    {player.position}
+                                </span>{" "}
+                                {player.name}
+                            </div>
+                        );
+                    return playerEl;
+                })}
+            </div>
         </div>
     );
 }

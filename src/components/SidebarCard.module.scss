@@ -26,28 +26,34 @@
         display: flex;
         flex-flow: row wrap;
     }
+}
 
-    li {
-        padding: 5px 15px;
+.sidebar-card-list-item {
+    color: inherit;
+    display: flex;
+    padding: 5px 15px;
 
-        &:not(:last-child) {
-            border-bottom: 1px solid miami-color-mix(black, "miamiBlue", 10);
-        }
+    &:not(:last-child) {
+        border-bottom: 1px solid miami-color-mix(black, "miamiBlue", 10);
+    }
+
+    &:nth-child(even) {
+        background-color: miami-color-mix(white, "miamiBlue", 10);
+    }
+
+    @include media-breakpoint-only(sm) {
+        flex: 0 0 calc(100% / 3);
 
         &:nth-child(even) {
+            background-color: transparent;
+        }
+
+        &:nth-child(3n + 2) {
             background-color: miami-color-mix(white, "miamiBlue", 10);
         }
-
-        @include media-breakpoint-only(sm) {
-            flex: 0 0 calc(100% / 3);
-
-            &:nth-child(even) {
-                background-color: transparent;
-            }
-
-            &:nth-child(3n + 2) {
-                background-color: miami-color-mix(white, "miamiBlue", 10);
-            }
-        }
     }
+}
+
+.player-position {
+    flex: 0 0 40px;
 }
