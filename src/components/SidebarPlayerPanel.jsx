@@ -5,6 +5,7 @@ import MuiExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import MuiExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 import styles from "./SidebarPlayerPanel.module.scss";
 
 const ExpansionPanel = withStyles({
@@ -92,13 +93,13 @@ export default function SidebarPlayerPanel(props) {
                     )}
                     {props.profile && (
                         <li>
-                            <a
+                            <OutboundLink
                                 href={props.profile}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 View Player Profile
-                            </a>
+                            </OutboundLink>
                         </li>
                     )}
                 </ul>
