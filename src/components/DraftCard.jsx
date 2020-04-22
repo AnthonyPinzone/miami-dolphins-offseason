@@ -50,7 +50,7 @@ class DraftCard extends React.Component {
                         Player Analysis
                         <KeyboardArrowDownIcon />
                     </button>
-                    <div className={styles.playerAnalysisContent}>
+                    <blockquote className={styles.playerAnalysisContent}>
                         {this.props.analysis
                             ? this.props.analysis
                             : "Player analysis will be available when a player is selected."}
@@ -64,7 +64,7 @@ class DraftCard extends React.Component {
                                 {this.props.citeText}
                             </a>
                         )}
-                    </div>
+                    </blockquote>
                 </div>
                 <ul className={styles.playerMeta}>
                     <li className="player-meta--grade">

@@ -9,8 +9,6 @@ function SidebarCard(props) {
         setExpanded(newExpanded ? panel : false);
     };
 
-    console.log(props.title);
-
     return (
         <div className={styles.sidebarCard}>
             <h3 className={styles.sidebarCardTitle}>{props.title}</h3>

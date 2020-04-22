@@ -3,7 +3,7 @@
 @import "../styles/mixins";
 
 .page-header {
-    background-color: $miaBlue;
+    background-color: miami-color("miamiAqua");
     border-bottom: 1px solid white;
     box-shadow: 0 1px 0 miami-color("miamiOrange");
     color: white;
@@ -14,7 +14,7 @@
         padding: 10px 0;
         text-align: center;
         text-transform: uppercase;
-        text-shadow: 3px 3px 3px miami-color-mix(black, "miamiBlue", 30);
+        text-shadow: 3px 3px 3px miami-color-mix(black, "miamiAqua", 30);
 
         @include media-breakpoint-up(sm) {
             @include fontSize(24px);

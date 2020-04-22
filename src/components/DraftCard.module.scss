@@ -58,12 +58,11 @@
 }
 
 .player-name {
-    color: var(--miamiBlue);
+    color: miami-color("miamiAqua");
     font-size: 1.25rem;
     line-height: 1;
     font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .player-analysis {
@@ -91,7 +90,7 @@
 .player-analysis-toggle {
     background-color: transparent;
     border: 0;
-    color: var(--miamiBlue);
+    color: miami-color("miamiAqua");
     display: flex;
     align-items: center;
     justify-content: space-between;
