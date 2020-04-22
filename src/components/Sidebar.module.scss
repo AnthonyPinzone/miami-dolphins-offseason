@@ -1,0 +1,13 @@
+@import "../styles/variables";
+@import "../styles/functions";
+@import "../styles/mixins";
+
+.sidebar {
+    background-color: #fafafa;
+    order: 2;
+    padding: 15px;
+
+    @include media-breakpoint-up(md) {
+        flex: 0 0 300px;
+    }
+}

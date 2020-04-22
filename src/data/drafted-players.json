@@ -1,0 +1,38 @@
+{
+    "players": [
+        {
+            "name": "",
+            "position": "",
+            "school": "",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "round": "",
+            "roundPick": "",
+            "overallPick": "",
+            "nflGrade": "",
+            "espnGrade": "",
+            "citeLink": "",
+            "citeText": "",
+            "image": "",
+            "analysis": ""
+        },
+        {
+            "name": "",
+            "position": "",
+            "school": "",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "round": "",
+            "roundPick": "",
+            "overallPick": "",
+            "nflGrade": "",
+            "espnGrade": "",
+            "citeLink": "",
+            "citeText": "",
+            "image": "",
+            "analysis": ""
+        }
+    ]
+}

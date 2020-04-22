@@ -1,0 +1,176 @@
+{
+    "additions": [
+        {
+            "name": "Michael Roberts",
+            "position": "TE"
+        },
+        {
+            "name": "Shaq Lawson",
+            "position": "DE"
+        },
+        {
+            "name": "Emmanuel Ogbah",
+            "position": "DE"
+        },
+        {
+            "name": "Ereck Flowers",
+            "position": "OT"
+        },
+        {
+            "name": "Kyle Van Noy",
+            "position": "MLB"
+        },
+        {
+            "name": "Byron Jones",
+            "position": "CB"
+        },
+        {
+            "name": "Jordan Howard",
+            "position": "RB"
+        },
+        {
+            "name": "Ted Karras",
+            "position": "OG"
+        },
+        {
+            "name": "Elandon Roberts",
+            "position": "OLB"
+        },
+        {
+            "name": "Clayton Fejedelem",
+            "position": "DB"
+        },
+        {
+            "name": "Kamu Grugier-Hill",
+            "position": "OLB"
+        }
+    ],
+    "resignings": [
+        {
+            "name": "Ricardo Louis",
+            "position": "WR"
+        },
+        {
+            "name": "Trent Harris",
+            "position": "DE"
+        },
+        {
+            "name": "Adrian Colbert",
+            "position": "FS"
+        },
+        {
+            "name": "Matt Haack",
+            "position": "P"
+        },
+        {
+            "name": "Vince Biegel",
+            "position": "LB"
+        },
+        {
+            "name": "Zach Sieler",
+            "position": "DE"
+        },
+        {
+            "name": "Isaiah Ford",
+            "position": "WR"
+        }
+    ],
+    "releases": [
+        {
+            "name": "Reshad Jones",
+            "position": "FS"
+        },
+        {
+            "name": "Aqib Talib",
+            "position": "CB"
+        },
+        {
+            "name": "Clive Walford",
+            "position": "TE"
+        },
+        {
+            "name": "Chase Allen",
+            "position": "OLB"
+        },
+        {
+            "name": "Mike Hull",
+            "position": "LB"
+        },
+        {
+            "name": "Walt Aikens",
+            "position": "DB"
+        },
+        {
+            "name": "Daniel Kilgore",
+            "position": "C"
+        },
+        {
+            "name": "TJ Rahming",
+            "position": "WR"
+        },
+        {
+            "name": "John Jenkins",
+            "position": "DT"
+        },
+        {
+            "name": "Rashard Causey",
+            "position": "DB"
+        },
+        {
+            "name": "Deon Lacey",
+            "position": "RB"
+        },
+        {
+            "name": "Chidi Okeke",
+            "position": "OT"
+        },
+        {
+            "name": "J'Marcus Webb",
+            "position": "OT"
+        },
+        {
+            "name": "Evan Brown",
+            "position": "C"
+        },
+        {
+            "name": "Trevor Davis",
+            "position": "WR"
+        },
+        {
+            "name": "Kendrick Norton",
+            "position": "DT"
+        },
+        {
+            "name": "Evan Boehm",
+            "position": "OG"
+        },
+        {
+            "name": "Terry Wright",
+            "position": "WR"
+        },
+        {
+            "name": "Andy Jones",
+            "position": "WR"
+        },
+        {
+            "name": "Jamal Davis II",
+            "position": "LB"
+        },
+        {
+            "name": "Jake Carlock",
+            "position": "LB"
+        },
+        {
+            "name": "Gerald Willis",
+            "position": "DL"
+        },
+        {
+            "name": "Linden Stephens",
+            "position": "CB"
+        },
+        {
+            "name": "Jonathan Ledbetter",
+            "position": "DE"
+        }
+    ]
+}
