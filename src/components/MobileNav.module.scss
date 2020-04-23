@@ -3,6 +3,7 @@
 @import "../styles/mixins";
 
 .mobile-nav {
+    background-color: white;
     padding: 15px 15px 0;
 
     @include media-breakpoint-up(lg) {
@@ -34,7 +35,7 @@
                 border-radius: 5px;
                 color: miami-color("miamiBlue");
                 display: block;
-                font-weight: 700;
+                font-weight: 600;
                 padding: 10px 15px;
                 text-align: center;
                 text-decoration: none;

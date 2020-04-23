@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 
     &:not(:last-child) {
         margin-bottom: 15px;
@@ -111,13 +112,14 @@
 
 .player-analysis-content {
     display: none;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
     overflow: hidden;
 
     @include media-breakpoint-up(xl) {
         @include fontSize(14px);
         display: block;
         margin: 0;
+        padding-right: 45px;
     }
 
     @include media-breakpoint-up(xxl) {
@@ -181,11 +183,14 @@
         font-size: 1rem;
         font-weight: 600;
         list-style: none;
-        padding: 5px;
+        padding: 5px 10px;
         text-align: center;
 
-        @include media-breakpoint-up(xl) {
+        @include media-breakpoint-up(lg) {
             @include fontSize(24px);
+        }
+
+        @include media-breakpoint-up(xl) {
             border: 0;
             justify-content: center;
             flex: 1;

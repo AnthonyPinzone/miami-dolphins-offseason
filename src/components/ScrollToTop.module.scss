@@ -11,6 +11,10 @@
         border: 2px solid var(--miamiBlue);
         border-radius: 50%;
         color: var(--miamiBlue);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         outline: 0;
         height: 50px;
         width: 50px;

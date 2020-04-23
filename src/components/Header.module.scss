@@ -3,11 +3,7 @@
 @import "../styles/mixins";
 
 .page-header {
-    background-color: miami-color("miamiAqua");
-    border-bottom: 1px solid white;
-    box-shadow: 0 1px 0 miami-color("miamiOrange");
     color: white;
-    margin-bottom: 1px;
 
     h1 {
         @include fontSize(16px);
@@ -18,6 +14,11 @@
 
         @include media-breakpoint-up(sm) {
             @include fontSize(24px);
+        }
+
+        @include media-breakpoint-up(xxl) {
+            @include fontSize(30px);
+            padding: 20px 0;
         }
     }
 }

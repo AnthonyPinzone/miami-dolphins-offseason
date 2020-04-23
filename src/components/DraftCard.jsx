@@ -1,4 +1,5 @@
 import React from "react";
+import TradeAlert from "./TradeAlert";
 import Tooltip from "@material-ui/core/Tooltip";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
@@ -18,6 +19,9 @@ class DraftCard extends React.Component {
         const nflTotalScore = 8.0;
         return (
             <div className={styles.draftCard}>
+                {this.props.trade && (
+                    <TradeAlert>{this.props.trade}</TradeAlert>
+                )}
                 <div className={styles.playerDetails}>
                     <h3 className={styles.playerName}>
                         <span className={styles.playerPosition}>
