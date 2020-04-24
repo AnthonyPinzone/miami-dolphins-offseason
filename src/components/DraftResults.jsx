@@ -15,7 +15,7 @@ function DraftResults(props) {
                 />
                 {props.players && props.players.length > 0 ? (
                     props.players.map((player) => (
-                        <DraftCard key={player.name} {...player} />
+                        <DraftCard key={player.details.name} {...player} />
                     ))
                 ) : (
                     <p>No one drafted yet!</p>

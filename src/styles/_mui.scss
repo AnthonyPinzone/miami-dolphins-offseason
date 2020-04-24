@@ -8,3 +8,34 @@
         margin-left: 2px;
     }
 }
+
+.DraftCard-module--draft-card--UAwM2 {
+    .MuiExpansionPanel-root.Mui-expanded {
+        margin: 0;
+    }
+    .MuiExpansionPanelSummary-root {
+        min-height: 0;
+        padding: 0;
+        transition: none;
+    }
+    .MuiExpansionPanelSummary-root.Mui-expanded {
+        min-height: 0;
+    }
+    .MuiExpansionPanelSummary-content {
+        color: miami-color("miamiBlue");
+        justify-content: space-between;
+        margin: 0;
+        transition: none;
+    }
+    .MuiExpansionPanelSummary-content.Mui-expanded {
+        margin: 0;
+    }
+    .MuiExpansionPanelDetails-root {
+        display: block;
+        padding: 0;
+
+        @include media-breakpoint-up(xl) {
+            padding-right: 45px;
+        }
+    }
+}

@@ -1,62 +1,84 @@
 {
     "players": [
         {
-            "name": "Tua Tagovailoa",
-            "position": "Quarterback",
-            "school": "Alabama",
-            "age": "22",
-            "height": "6'0\"",
-            "weight": "217",
-            "trade": "",
-            "round": "1",
-            "roundPick": "5",
-            "overallPick": "5",
-            "nflGrade": "6.77",
-            "espnGrade": "93",
-            "citeLink": "https://www.nfl.com/prospects/tuanigamanuolepola-tagovailoa?id=32195441-4762-0344-3a46-269f5e5e854e",
-            "citeText": "Photo and analysis taken from NFL.com",
-            "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2564071.png&f=png&w=308&c=71",
-            "analysis": "Talented dual-threat quarterback with winning background, explosive production and loads of experience in high-leverage games. He may be pigeon-holed into a spread or RPO-heavy attack, but he's actually a clean fit in a pro-style attack filled with play-action and roll-outs. He has the release, accuracy and touch needed to work all three levels successfully and can become a more disciplined, full-field reader to piece the puzzle together against NFL coverages. He needs better poise when pressured, but his escapability not only moves the chains, it creates chunk plays in the air and on the ground. Teams assessing his draft value will need to sift through mounting durability concerns and decide whether he is a \"face of the franchise\" talent without the abundance of talent surrounding him."
+            "details": {
+                "name": "Tua Tagovailoa",
+                "position": "Quarterback",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2564071.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "Alabama",
+                "age": "22",
+                "height": "6'0\"",
+                "weight": "217",
+                "round": "1",
+                "roundPick": "5",
+                "overallPick": "5",
+                "nflGrade": "6.77",
+                "espnGrade": "93"
+            },
+            "analysis": {
+                "quote": "Talented dual-threat quarterback with winning background, explosive production and loads of experience in high-leverage games. He may be pigeon-holed into a spread or RPO-heavy attack, but he's actually a clean fit in a pro-style attack filled with play-action and roll-outs. He has the release, accuracy and touch needed to work all three levels successfully and can become a more disciplined, full-field reader to piece the puzzle together against NFL coverages. He needs better poise when pressured, but his escapability not only moves the chains, it creates chunk plays in the air and on the ground. Teams assessing his draft value will need to sift through mounting durability concerns and decide whether he is a \"face of the franchise\" talent without the abundance of talent surrounding him.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/tuanigamanuolepola-tagovailoa?id=32195441-4762-0344-3a46-269f5e5e854e",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         },
         {
-            "name": "Austin Jackson",
-            "position": "Offensive Tackle",
-            "school": "USC",
-            "age": "20",
-            "height": "6'5\"",
-            "weight": "322",
-            "trade": "",
-            "round": "1",
-            "roundPick": "18",
-            "overallPick": "18",
-            "nflGrade": "6.34",
-            "espnGrade": "84",
-            "citeLink": "https://www.nfl.com/prospects/austin-jackson?id=32194a41-4304-1754-a4d4-5902e423feaa",
-            "citeText": "Photo and analysis taken from NFL.com",
-            "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563941.png&f=png&w=308&c=71",
-            "analysis": "Early-entry tackle prospect who is raw but gifted and is likely to be coveted by a variety of teams, thanks to his true left tackle traits. Jackson has loads of athletic ability and play talent that is waiting to be developed and harvested. Inconsistent hand placement and footwork could be exploited early on if teams try and rush him into the starting lineup, but issues are correctable. He's scheme-diverse with potential guard flexibility if he improves his strength. He could become an early starter but may offer a wider split between floor and ceiling than some teams might like."
+            "details": {
+                "name": "Austin Jackson",
+                "position": "Offensive Tackle",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563941.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "USC",
+                "age": "20",
+                "height": "6'5\"",
+                "weight": "322",
+                "round": "1",
+                "roundPick": "18",
+                "overallPick": "18",
+                "nflGrade": "6.34",
+                "espnGrade": "84"
+            },
+            "analysis": {
+                "quote": "Early-entry tackle prospect who is raw but gifted and is likely to be coveted by a variety of teams, thanks to his true left tackle traits. Jackson has loads of athletic ability and play talent that is waiting to be developed and harvested. Inconsistent hand placement and footwork could be exploited early on if teams try and rush him into the starting lineup, but issues are correctable. He's scheme-diverse with potential guard flexibility if he improves his strength. He could become an early starter but may offer a wider split between floor and ceiling than some teams might like.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/austin-jackson?id=32194a41-4304-1754-a4d4-5902e423feaa",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         },
         {
-            "name": "Noah Igbinoghene",
-            "position": "Cornerback",
-            "school": "Auburn",
-            "age": "20",
-            "height": "5'10\"",
-            "weight": "198",
+            "details": {
+                "name": "Noah Igbinoghene",
+                "position": "Cornerback",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563937.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "Auburn",
+                "age": "20",
+                "height": "5'10\"",
+                "weight": "198",
+                "round": "1",
+                "roundPick": "30",
+                "overallPick": "30",
+                "nflGrade": "6.29",
+                "espnGrade": "79"
+            },
             "trade": {
                 "partner": "Green Bay Packers",
                 "gave": ["Round 1 - Pick 26"],
                 "received": ["Round 1 - Pick 30", "Round 4 - Pick 30 (136)"]
             },
-            "round": "1",
-            "roundPick": "30",
-            "overallPick": "30",
-            "nflGrade": "6.29",
-            "espnGrade": "79",
-            "citeLink": "https://www.nfl.com/prospects/noah-igbinoghene?id=32194947-4214-8318-2536-3aa44c8f7f41",
-            "citeText": "Photo and analysis taken from NFL.com",
-            "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563937.png&f=png&w=308&c=71",
-            "analysis": "Stocky but explosive receiver-turned-cornerback whose play generates both intrigue and concern. He's extremely physical from snap to whistle with the strength to alter route timing from press. He's a good athlete with a plus burst to close. He's naturally aggressive to ambush catch tries. Staying in phase on the vertical plane is a challenge and pattern recognition is surprisingly average. Improvement is likely with more experience and technique, but playing with downfield poise is not guaranteed. He's good in run support and offers early special teams help as he continues to learn his craft."
+            "analysis": {
+                "quote": "Stocky but explosive receiver-turned-cornerback whose play generates both intrigue and concern. He's extremely physical from snap to whistle with the strength to alter route timing from press. He's a good athlete with a plus burst to close. He's naturally aggressive to ambush catch tries. Staying in phase on the vertical plane is a challenge and pattern recognition is surprisingly average. Improvement is likely with more experience and technique, but playing with downfield poise is not guaranteed. He's good in run support and offers early special teams help as he continues to learn his craft.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/noah-igbinoghene?id=32194947-4214-8318-2536-3aa44c8f7f41",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }

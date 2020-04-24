@@ -24,16 +24,16 @@ export default function TradeAlert(props) {
             <div className={styles.tradeAlertDetails}>
                 <strong>Miami Dolphins Receive</strong>
                 <ul>
-                    {props.received.map((pick) => (
-                        <li>{pick}</li>
+                    {props.received.map((pick, index) => (
+                        <li key={`received-${index}`}>{pick}</li>
                     ))}
                 </ul>
             </div>
             <div className={styles.tradeAlertDetails}>
                 <strong>{props.partner} Receive</strong>
                 <ul>
-                    {props.gave.map((pick) => (
-                        <li>{pick}</li>
+                    {props.gave.map((pick, index) => (
+                        <li key={`gave-${index}`}>{pick}</li>
                     ))}
                 </ul>
             </div>
