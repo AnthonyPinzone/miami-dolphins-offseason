@@ -19,9 +19,7 @@ class DraftCard extends React.Component {
         const nflTotalScore = 8.0;
         return (
             <div className={styles.draftCard}>
-                {this.props.trade && (
-                    <TradeAlert>{this.props.trade}</TradeAlert>
-                )}
+                {this.props.trade && <TradeAlert {...this.props.trade} />}
                 <div className={styles.playerDetails}>
                     <h3 className={styles.playerName}>
                         <span className={styles.playerPosition}>

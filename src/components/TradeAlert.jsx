@@ -21,7 +21,22 @@ export default function TradeAlert(props) {
                 )}
             </button>
             <h4 className={styles.tradeAlertTitle}>Trade Alert!</h4>{" "}
-            <p className={styles.tradeAlertBody}>{props.children}</p>
+            <div className={styles.tradeAlertDetails}>
+                <strong>Miami Dolphins Receive</strong>
+                <ul>
+                    {props.received.map((pick) => (
+                        <li>{pick}</li>
+                    ))}
+                </ul>
+            </div>
+            <div className={styles.tradeAlertDetails}>
+                <strong>{props.partner} Receive</strong>
+                <ul>
+                    {props.gave.map((pick) => (
+                        <li>{pick}</li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 }

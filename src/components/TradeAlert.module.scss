@@ -82,7 +82,14 @@
     }
 }
 
-.trade-alert-body {
-    margin: 0;
-    padding: 15px;
+.trade-alert-details {
+    @include fontSize(14px);
+    margin: 10px 0 0 0;
+    padding: 0 15px;
+
+    ul {
+        list-style-position: inside;
+        margin: 0;
+        padding-left: 15px;
+    }
 }
