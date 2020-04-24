@@ -7,7 +7,7 @@ import styles from "./DraftCard.module.scss";
 
 export default function DraftCard(props) {
     return (
-        <div className={styles.draftCard}>
+        <div className={`draft-card ${styles.draftCard}`}>
             {props.trade && <TradeAlert {...props.trade} />}
 
             <PlayerDetails {...props.details} />
