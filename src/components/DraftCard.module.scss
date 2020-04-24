@@ -5,11 +5,12 @@
 
 .draft-card {
     background-color: #fefefe;
-    border: 1px solid #e1e1e1;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
     position: relative;
 
     &:not(:last-child) {

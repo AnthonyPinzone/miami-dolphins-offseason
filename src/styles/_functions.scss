@@ -11,3 +11,9 @@
 
     @return mix($color-base, $color, $weight);
 }
+
+@function miami-color-alpha($color-name, $color-alpha) {
+    $color: miami-color($color-name);
+
+    @return rgba($color, $color-alpha);
+}
