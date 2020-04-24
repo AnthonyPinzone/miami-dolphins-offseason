@@ -1,22 +1,22 @@
 {
     "players": [
         {
-            "name": "",
-            "position": "",
-            "school": "",
-            "age": "",
-            "height": "",
-            "weight": "",
-            "trade": "If a trade goes down, you'll see the bell icon that expands into details!",
+            "name": "Tua Tagovailoa",
+            "position": "QB",
+            "school": "Ala",
+            "age": "22",
+            "height": "6'0\"",
+            "weight": "217",
+            "trade": "",
             "round": "1",
             "roundPick": "5",
             "overallPick": "5",
-            "nflGrade": "",
-            "espnGrade": "",
-            "citeLink": "",
-            "citeText": "",
-            "image": "",
-            "analysis": ""
+            "nflGrade": "6.77",
+            "espnGrade": "93",
+            "citeLink": "https://www.nfl.com/prospects/tuanigamanuolepola-tagovailoa?id=32195441-4762-0344-3a46-269f5e5e854e",
+            "citeText": "Photo and Analysis Taken from NFL.com",
+            "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2564071.png&f=png&w=308&c=71",
+            "analysis": "Talented dual-threat quarterback with winning background, explosive production and loads of experience in high-leverage games. He may be pigeon-holed into a spread or RPO-heavy attack, but he's actually a clean fit in a pro-style attack filled with play-action and roll-outs. He has the release, accuracy and touch needed to work all three levels successfully and can become a more disciplined, full-field reader to piece the puzzle together against NFL coverages. He needs better poise when pressured, but his escapability not only moves the chains, it creates chunk plays in the air and on the ground. Teams assessing his draft value will need to sift through mounting durability concerns and decide whether he is a \"face of the franchise\" talent without the abundance of talent surrounding him."
         }
     ]
 }
