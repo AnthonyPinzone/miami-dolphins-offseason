@@ -79,6 +79,31 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Robert Hunt",
+                "position": "Offensive Tackle",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563935.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "ULL",
+                "age": "23",
+                "height": "6'5\"",
+                "weight": "323",
+                "round": "2",
+                "roundPick": "7",
+                "overallPick": "39",
+                "nflGrade": "6.34",
+                "espnGrade": "79"
+            },
+            "analysis": {
+                "quote": "Like Cody Ford in last year's draft, Hunt is a plus athlete with a big man's frame who could be considered at guard or tackle. Inconsistent footwork and pad level are the primary culprits when he fails to win the rep, but there aren't any physical limitations that should prevent him from improving in both areas. Pass protection traits are present but getting the skill level up to par is going to take time. He's a little raw but has the necessary talent to become a solid future starter at right tackle.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/robert-hunt?id=32194855-4e36-0894-8461-dd1b950e2536",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }
