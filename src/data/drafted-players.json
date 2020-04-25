@@ -234,6 +234,31 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Blake Ferguson",
+                "position": "Long-Snapper",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563883.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "LSU",
+                "age": "23",
+                "height": "6'3\"",
+                "weight": "229",
+                "round": "6",
+                "roundPick": "6",
+                "overallPick": "185",
+                "nflGrade": "5.8",
+                "espnGrade": "35"
+            },
+            "analysis": {
+                "quote": "One of the top long-snappers in the country, Ferguson has a great shot at following his brother into the pros. His snap accuracy on punts was a little down from 2018, but it's not something that will kill his chances. He's the likely leader in the clubhouse as the long-snapper most likely to be drafted (and make a team long-term) this season.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/blake-ferguson?id=32194645-5204-5768-746f-e219dd20e488",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }
