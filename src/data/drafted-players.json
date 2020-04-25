@@ -129,6 +129,31 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Brandon Jones",
+                "position": "Safety",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563956.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "Texas",
+                "age": "22",
+                "height": "5'11\"",
+                "weight": "198",
+                "round": "3",
+                "roundPick": "6",
+                "overallPick": "70",
+                "nflGrade": "5.99",
+                "espnGrade": "68"
+            },
+            "analysis": {
+                "quote": "He's got a thumper's heart but doesn't have the frame to carry the pop necessary to handle that role. While Jones played boundary, field, and nickel safety position at Texas, he'll likely be pegged as a two-deep or single-high free safety due to man coverage limitations but above-average speed. He plays with good urgency and has soft hands, but just average instincts, which limited his ball production. He could get pushed up a round if he's a big tester. He has third-safety potential and offers early help on special teams.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/brandon-jones?id=32194a4f-4e10-2151-1cf9-666515191aa5",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }
