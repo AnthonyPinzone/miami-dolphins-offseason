@@ -154,6 +154,36 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Solomon Kindley",
+                "position": "Offensive Guard",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563964.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "Georgia",
+                "age": "22",
+                "height": "6'3\"",
+                "weight": "337",
+                "round": "4",
+                "roundPick": "5",
+                "overallPick": "111",
+                "nflGrade": "5.8",
+                "espnGrade": "56"
+            },
+            "trade": {
+                "partner": "Houston Texans",
+                "gave": ["Round 4 - Pick 30", "Round 4 - Pick 35"],
+                "received": ["Round 4 - Pick 5"]
+            },
+            "analysis": {
+                "quote": "Nasty guard who lives in scrap mode, looking for fights inside a relatively small phone booth where he's most comfortable. Kindley has the frame of a powerful guard, but doesn't bend well enough to generate leverage and push at the point of attack. He's a mauler with enough finesse to get to some reach and cut-off blocks, but faces scheme limitations. Slide quickness is limited and his tendency to lunge allows rushers to work around his edge earlier than teams like. The size and toughness are great, but Kindley needs to play with better control and technique in order to become an average NFL backup.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/solomon-kindley?id=32194b49-4e19-0649-1d38-6abe795d5e75",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }
