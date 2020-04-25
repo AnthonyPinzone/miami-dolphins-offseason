@@ -104,6 +104,31 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Raekwon Davis",
+                "position": "Defensive Tackle",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2563856.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "Alabama",
+                "age": "22",
+                "height": "6'6\"",
+                "weight": "311",
+                "round": "2",
+                "roundPick": "24",
+                "overallPick": "56",
+                "nflGrade": "6.35",
+                "espnGrade": "68"
+            },
+            "analysis": {
+                "quote": "Rugged and powerful with elite physical traits, Davis has the ability to impose his will on opponents and dominate at the point of attack. He plays long and strong with rare leverage for a taller player and holds positioning against double teams for linebackers to flow freely. He was all over the backfield in 2017, but hasn't made nearly as many plays -- against the run or pass -- since then. Despite possessing unique traits and the potential to dominate, his upside could be a moving target based upon maturity level and continued growth as a rusher. He should be a first-round pick who can come in and start right away for an odd or even front defense.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/raekwon-davis?id=32194441-5662-6617-82da-e7d203db8ce8",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }
