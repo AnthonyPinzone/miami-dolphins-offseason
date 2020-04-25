@@ -5,6 +5,7 @@ import MuiExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import MuiExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
+import SwapHorizOutlinedIcon from "@material-ui/icons/SwapHorizOutlined";
 import { OutboundLink } from "gatsby-plugin-google-analytics";
 import styles from "./SidebarPlayerPanel.module.scss";
 
@@ -69,11 +70,18 @@ export default function SidebarPlayerPanel(props) {
                 id={`panel${props.id}id-header`}
             >
                 <span className={styles.playerPosition}>{props.position}</span>{" "}
-                {props.name}
+                {props.name}{" "}
+                {props.trade && (
+                    <SwapHorizOutlinedIcon className={styles.tradeIcon} />
+                )}
                 {props.expanded === `panel${props.id}` ? (
-                    <KeyboardArrowUpIcon />
+                    <KeyboardArrowUpIcon
+                        className={styles.sidebarCardListItemToggleIcon}
+                    />
                 ) : (
-                    <KeyboardArrowDownIcon />
+                    <KeyboardArrowDownIcon
+                        className={styles.sidebarCardListItemToggleIcon}
+                    />
                 )}
             </ExpansionPanelSummary>
             <ExpansionPanelDetails
@@ -91,6 +99,7 @@ export default function SidebarPlayerPanel(props) {
                             <strong>Former Team:</strong> {props.formerTeam}
                         </li>
                     )}
+                    {props.comments && <li>{props.comments}</li>}
                     {props.profile && (
                         <li>
                             <OutboundLink
@@ -104,42 +113,46 @@ export default function SidebarPlayerPanel(props) {
                     )}
                 </ul>
 
-                <ul className={styles.contractDetails}>
-                    <li className={styles.contractDetailsTitle}>
-                        Contract Details
-                    </li>
-                    <li>
-                        <strong>Length:</strong>{" "}
-                        {props.contract.years &&
-                            `${props.contract.years} ${
-                                props.contract.years > 1 ? "years" : "year"
-                            }`}
-                    </li>
-                    <li>
-                        <strong>Total:</strong>
-                        {props.contract.total && props.contract.total}
-                    </li>
-                    {props.contract.years > 1 && props.contract.average && (
-                        <li>
-                            <strong>Average:</strong> {props.contract.average}
+                {props.contract && (
+                    <ul className={styles.contractDetails}>
+                        <li className={styles.contractDetailsTitle}>
+                            Contract Details
                         </li>
-                    )}
-                    {props.contract.guaranteed && (
                         <li>
-                            <strong>Guaranteed:</strong>
-                            {props.contract.guaranteed}
+                            <strong>Length:</strong>{" "}
+                            {props.contract.years &&
+                                `${props.contract.years} ${
+                                    props.contract.years > 1 ? "years" : "year"
+                                }`}
                         </li>
-                    )}
-                    <li>
-                        <strong>2020 Cap:</strong>{" "}
-                        {props.contract.cap && props.contract.cap}
-                    </li>
-                    {props.contract.out && (
                         <li>
-                            <strong>Potential Out:</strong> {props.contract.out}
+                            <strong>Total:</strong>
+                            {props.contract.total && props.contract.total}
                         </li>
-                    )}
-                </ul>
+                        {props.contract.years > 1 && props.contract.average && (
+                            <li>
+                                <strong>Average:</strong>{" "}
+                                {props.contract.average}
+                            </li>
+                        )}
+                        {props.contract.guaranteed && (
+                            <li>
+                                <strong>Guaranteed:</strong>
+                                {props.contract.guaranteed}
+                            </li>
+                        )}
+                        <li>
+                            <strong>2020 Cap:</strong>{" "}
+                            {props.contract.cap && props.contract.cap}
+                        </li>
+                        {props.contract.out && (
+                            <li>
+                                <strong>Potential Out:</strong>{" "}
+                                {props.contract.out}
+                            </li>
+                        )}
+                    </ul>
+                )}
             </ExpansionPanelDetails>
         </ExpansionPanel>
     );

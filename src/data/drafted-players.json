@@ -209,6 +209,31 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Curtis Weaver",
+                "position": "Edge Rusher",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2564101.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "BSU",
+                "age": "23",
+                "height": "6'2\"",
+                "weight": "265",
+                "round": "5",
+                "roundPick": "19",
+                "overallPick": "164",
+                "nflGrade": "5.99",
+                "espnGrade": "71"
+            },
+            "analysis": {
+                "quote": "Stand-up end whose production as a pass rusher must be balanced out by his below-average ability and athleticism in stopping the run. Weaver is a naturally instinctive counter-rusher who uses synchronized hands/feet to attack both inside and outside edges as a rusher, but his lack of explosiveness and athletic traits could dull his rush production against NFL offensive tackles. He plays with football intelligence, but his level of NFL success could be determined by whether his skill can overcome below-average explosiveness.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/curtis-weaver?id=32195745-4157-3489-d055-25f35fe1611b",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }

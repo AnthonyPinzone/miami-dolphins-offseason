@@ -175,6 +175,16 @@
                 "cap": "3M",
                 "out": ""
             }
+        },
+        {
+            "id": "ADD012",
+            "name": "Matt Breida",
+            "position": "RB",
+            "age": 25,
+            "formerTeam": "San Francisco 49ers",
+            "profile": "http://www.nfl.com/player/mattbreida/2558918/profile",
+            "comments": "Acquired via trade for a 5th round pick (153rd overall) in the 2020 NFL Draft.",
+            "trade": true
         }
     ],
     "resignings": [

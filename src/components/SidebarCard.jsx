@@ -19,28 +19,31 @@ function SidebarCard(props) {
                         : ""
                 }`}
             >
-                {props.players.map((player) => {
-                    const playerEl =
-                        props.title === "Additions" ? (
-                            <SidebarPlayerPanel
-                                {...player}
-                                key={player.id}
-                                expanded={expanded}
-                                handleChange={handleChange}
-                            />
-                        ) : (
-                            <div
-                                className={styles.sidebarCardListItem}
-                                key={player.id}
-                            >
-                                <span className={styles.playerPosition}>
-                                    {player.position}
-                                </span>{" "}
-                                {player.name}
-                            </div>
-                        );
-                    return playerEl;
-                })}
+                {props.players
+                    .slice(0)
+                    .reverse()
+                    .map((player) => {
+                        const playerEl =
+                            props.title === "Additions" ? (
+                                <SidebarPlayerPanel
+                                    {...player}
+                                    key={player.id}
+                                    expanded={expanded}
+                                    handleChange={handleChange}
+                                />
+                            ) : (
+                                <div
+                                    className={styles.sidebarCardListItem}
+                                    key={player.id}
+                                >
+                                    <span className={styles.playerPosition}>
+                                        {player.position}
+                                    </span>{" "}
+                                    {player.name}
+                                </div>
+                            );
+                        return playerEl;
+                    })}
             </div>
         </div>
     );

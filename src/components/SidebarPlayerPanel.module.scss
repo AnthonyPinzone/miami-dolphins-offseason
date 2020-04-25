@@ -17,10 +17,15 @@
     @include media-breakpoint-only(sm) {
         flex: 0 0 100%;
     }
+}
 
-    svg {
-        margin-left: auto;
-    }
+.sidebar-card-list-item-toggle-icon {
+    margin-left: auto;
+}
+
+.trade-icon {
+    margin: 0 5px;
+    opacity: 0.5;
 }
 
 .player-position {
