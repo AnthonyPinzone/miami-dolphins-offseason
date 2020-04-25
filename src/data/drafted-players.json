@@ -184,6 +184,31 @@
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
+        },
+        {
+            "details": {
+                "name": "Jason Strowbridge",
+                "position": "Defensive End",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2564067.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "UNC",
+                "age": "23",
+                "height": "6'4\"",
+                "weight": "275",
+                "round": "5",
+                "roundPick": "9",
+                "overallPick": "154",
+                "nflGrade": "6.23",
+                "espnGrade": "69"
+            },
+            "analysis": {
+                "quote": "Strowbridge will give opponents a physical challenge with good length, toughness and hand usage at the point of attack, but he lacks the suddenness and short-area directional change to be a consistent disruptor. While he's not a plus pass rusher, he definitely flashed at the Senior Bowl and has upside as a reduced rusher in an even front on passing downs. He will need to drop the pad level to improve as an edge-setter, but he appears to offer the necessary physical tools and demeanor to become a rotational 3-4 five-technique or 4-3 base end with eventual-starter potential.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/jason-strowbridge?id=32195354-5273-0244-9d30-603b05a32381",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
         }
     ]
 }
