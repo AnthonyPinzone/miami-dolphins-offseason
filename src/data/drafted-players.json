@@ -8,7 +8,6 @@
             },
             "meta": {
                 "school": "Alabama",
-                "age": "22",
                 "height": "6'0\"",
                 "weight": "217",
                 "round": "1",
@@ -33,7 +32,6 @@
             },
             "meta": {
                 "school": "USC",
-                "age": "20",
                 "height": "6'5\"",
                 "weight": "322",
                 "round": "1",
@@ -58,7 +56,6 @@
             },
             "meta": {
                 "school": "Auburn",
-                "age": "20",
                 "height": "5'10\"",
                 "weight": "198",
                 "round": "1",
@@ -88,7 +85,6 @@
             },
             "meta": {
                 "school": "ULL",
-                "age": "23",
                 "height": "6'5\"",
                 "weight": "323",
                 "round": "2",
@@ -113,7 +109,6 @@
             },
             "meta": {
                 "school": "Alabama",
-                "age": "22",
                 "height": "6'6\"",
                 "weight": "311",
                 "round": "2",
@@ -138,7 +133,6 @@
             },
             "meta": {
                 "school": "Texas",
-                "age": "22",
                 "height": "5'11\"",
                 "weight": "198",
                 "round": "3",
@@ -163,7 +157,6 @@
             },
             "meta": {
                 "school": "Georgia",
-                "age": "22",
                 "height": "6'3\"",
                 "weight": "337",
                 "round": "4",
@@ -193,7 +186,6 @@
             },
             "meta": {
                 "school": "UNC",
-                "age": "23",
                 "height": "6'4\"",
                 "weight": "275",
                 "round": "5",
@@ -218,7 +210,6 @@
             },
             "meta": {
                 "school": "BSU",
-                "age": "23",
                 "height": "6'2\"",
                 "weight": "265",
                 "round": "5",
@@ -243,7 +234,6 @@
             },
             "meta": {
                 "school": "LSU",
-                "age": "23",
                 "height": "6'3\"",
                 "weight": "229",
                 "round": "6",
@@ -256,6 +246,30 @@
                 "quote": "One of the top long-snappers in the country, Ferguson has a great shot at following his brother into the pros. His snap accuracy on punts was a little down from 2018, but it's not something that will kill his chances. He's the likely leader in the clubhouse as the long-snapper most likely to be drafted (and make a team long-term) this season.",
                 "cite": {
                     "link": "https://www.nfl.com/prospects/blake-ferguson?id=32194645-5204-5768-746f-e219dd20e488",
+                    "text": "Photo and analysis taken from NFL.com"
+                }
+            }
+        },
+        {
+            "details": {
+                "name": "Malcolm Perry",
+                "position": "Wide Receiver",
+                "image": "https://imagecomposer.nfl.com/?l=http://static.nfl.com/static/content/static/img/combine/2020/headshots/1400x1000/2564023.png&f=png&w=308&c=71"
+            },
+            "meta": {
+                "school": "Navy",
+                "height": "5'9\"",
+                "weight": "186",
+                "round": "7",
+                "roundPick": "32",
+                "overallPick": "246",
+                "nflGrade": "5.4",
+                "espnGrade": ""
+            },
+            "analysis": {
+                "quote": "When a prospect starts off with traits like tough, smart and highly competitive, they are off to a very good start with important intangibles. While Perry checks those boxes, he's undersized, moving to a new position, and lacks explosive twitch as a route-runner to uncover in short spaces. With play-callers becoming more creative, Perry's production in option packages could open a lane for him as offenses love to create additional game-planning duties for defensive coordinators.",
+                "cite": {
+                    "link": "https://www.nfl.com/prospects/malcolm-perry?id=32195045-5263-1387-f4fb-1d8566ba58d2",
                     "text": "Photo and analysis taken from NFL.com"
                 }
             }
