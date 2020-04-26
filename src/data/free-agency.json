@@ -345,5 +345,25 @@
             "name": "Jonathan Ledbetter",
             "position": "DE"
         }
+    ],
+    "undrafted": [
+        {
+            "id": "UDFA001",
+            "name": "Benito Jones",
+            "position": "DT",
+            "school": "Ole Miss"
+        },
+        {
+            "id": "UDFA002",
+            "name": "Donell Stanley",
+            "position": "OL",
+            "school": "S. Carolina"
+        },
+        {
+            "id": "UDFA003",
+            "name": "Ray Lima",
+            "position": "DT",
+            "school": "Iowa State"
+        }
     ]
 }

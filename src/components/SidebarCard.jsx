@@ -33,13 +33,22 @@ function SidebarCard(props) {
                                 />
                             ) : (
                                 <div
-                                    className={styles.sidebarCardListItem}
+                                    className={`${styles.sidebarCardListItem}${
+                                        props.title === "Undrafted"
+                                            ? ` ${styles.sidebarCardListItemUndrafted}`
+                                            : ""
+                                    }`}
                                     key={player.id}
                                 >
                                     <span className={styles.playerPosition}>
                                         {player.position}
                                     </span>{" "}
                                     {player.name}
+                                    {player.school && (
+                                        <span className={styles.playerSchool}>
+                                            {player.school}
+                                        </span>
+                                    )}
                                 </div>
                             );
                         return playerEl;

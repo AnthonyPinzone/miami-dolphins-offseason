@@ -58,6 +58,16 @@
     }
 }
 
+.sidebar-card-list-item-undrafted {
+    @include media-breakpoint-only(sm) {
+        flex: 0 0 calc(100% / 2);
+    }
+}
+
 .player-position {
     flex: 0 0 40px;
+}
+
+.player-school {
+    margin-left: auto;
 }

@@ -46,6 +46,10 @@ export default () => {
                         players={FreeAgents.resignings}
                     />
                     <SidebarCard
+                        title="Undrafted"
+                        players={FreeAgents.undrafted}
+                    />
+                    <SidebarCard
                         title="Releases"
                         players={FreeAgents.releases}
                     />
