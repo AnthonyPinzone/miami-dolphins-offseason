@@ -344,6 +344,26 @@
             "id": "REL024",
             "name": "Jonathan Ledbetter",
             "position": "DE"
+        },
+        {
+            "id": "REL025",
+            "name": "Terrill Hanks",
+            "position": "LB"
+        },
+        {
+            "id": "REL026",
+            "name": "Montre Hartage",
+            "position": "S"
+        },
+        {
+            "id": "REL027",
+            "name": "Taybor Pepper",
+            "position": "LS"
+        },
+        {
+            "id": "REL028",
+            "name": "Samaje Perine",
+            "position": "RB"
         }
     ],
     "undrafted": [
