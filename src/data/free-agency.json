@@ -383,7 +383,43 @@
             "id": "UDFA003",
             "name": "Ray Lima",
             "position": "DT",
-            "school": "Iowa State"
+            "school": "Iowa St."
+        },
+        {
+            "id": "UDFA004",
+            "name": "Tyshun Redner",
+            "position": "DE",
+            "school": "Mid. Ten. St."
+        },
+        {
+            "id": "UDFA005",
+            "name": "Nick Kaltmayer",
+            "position": "OT",
+            "school": "Kansas St."
+        },
+        {
+            "id": "UDFA006",
+            "name": "Bryce Sterk",
+            "position": "TE",
+            "school": "Montana St."
+        },
+        {
+            "id": "UDFA007",
+            "name": "Kirk Merritt",
+            "position": "WR",
+            "school": "Arkansas St."
+        },
+        {
+            "id": "UDFA008",
+            "name": "Matt Cole",
+            "position": "WR",
+            "school": "McKendree U"
+        },
+        {
+            "id": "UDFA009",
+            "name": "Kylan Johnson",
+            "position": "LB",
+            "school": "Pittsburgh"
         }
     ]
 }
