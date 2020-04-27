@@ -218,6 +218,11 @@
                 "nflGrade": "5.99",
                 "espnGrade": "71"
             },
+            "trade": {
+                "partner": "Philadelphia Eagles",
+                "gave": ["Round 5 - Pick 19", "Round 7 - Pick 13"],
+                "received": ["Round 5 - Pick 13"]
+            },
             "analysis": {
                 "quote": "Stand-up end whose production as a pass rusher must be balanced out by his below-average ability and athleticism in stopping the run. Weaver is a naturally instinctive counter-rusher who uses synchronized hands/feet to attack both inside and outside edges as a rusher, but his lack of explosiveness and athletic traits could dull his rush production against NFL offensive tackles. He plays with football intelligence, but his level of NFL success could be determined by whether his skill can overcome below-average explosiveness.",
                 "cite": {
