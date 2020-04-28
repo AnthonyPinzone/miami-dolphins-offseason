@@ -185,6 +185,14 @@
             "profile": "http://www.nfl.com/player/mattbreida/2558918/profile",
             "comments": "Acquired via trade for a 5th round pick (153rd overall) in the 2020 NFL Draft.",
             "trade": true
+        },
+        {
+            "id": "ADD013",
+            "name": "Kavon Frazier",
+            "position": "FS",
+            "age": 25,
+            "formerTeam": "Dallas Cowboyws",
+            "profile": "http://www.nfl.com/player/kavonfrazier/2555536/profile"
         }
     ],
     "resignings": [
