@@ -428,6 +428,12 @@
             "name": "Kylan Johnson",
             "position": "LB",
             "school": "Pittsburgh"
+        },
+        {
+            "id": "UDFA010",
+            "name": "Jonathan Hubbard",
+            "position": "OT",
+            "school": "Northwestern St."
         }
     ]
 }
