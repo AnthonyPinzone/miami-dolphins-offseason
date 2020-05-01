@@ -372,6 +372,18 @@
             "id": "REL028",
             "name": "Samaje Perine",
             "position": "RB"
+        },
+        {
+            "id": "REL029",
+            "name": "Taco Charlton",
+            "position": "DE"
+        },
+        {
+            "id": "REL030",
+            "name": "Charles Harris",
+            "position": "DE",
+            "trade": true,
+            "tradeDetails": "Traded to the Atlanta Falcons for a 2021 7th round pick."
         }
     ],
     "undrafted": [

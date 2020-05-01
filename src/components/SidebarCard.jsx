@@ -1,5 +1,7 @@
 import React from "react";
 import SidebarPlayerPanel from "./SidebarPlayerPanel";
+import Tooltip from "@material-ui/core/Tooltip";
+import SwapHorizOutlinedIcon from "@material-ui/icons/SwapHorizOutlined";
 import styles from "./SidebarCard.module.scss";
 
 function SidebarCard(props) {
@@ -44,6 +46,16 @@ function SidebarCard(props) {
                                         {player.position}
                                     </span>{" "}
                                     {player.name}
+                                    {player.trade && (
+                                        <Tooltip
+                                            title={player.tradeDetails}
+                                            placement="top-end"
+                                        >
+                                            <SwapHorizOutlinedIcon
+                                                className={styles.tradeIcon}
+                                            />
+                                        </Tooltip>
+                                    )}
                                     {player.school && (
                                         <span className={styles.playerSchool}>
                                             {player.school}
