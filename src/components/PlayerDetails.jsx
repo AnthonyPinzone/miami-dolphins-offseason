@@ -2,7 +2,7 @@ import React from "react";
 import PlaceholderImage from "../images/prospect-placeholder.png";
 import styles from "./PlayerDetails.module.scss";
 
-function PlayerDetails(props) {
+export default function PlayerDetails(props) {
     return (
         <div className={styles.playerDetails}>
             <h3 className={styles.playerName}>
@@ -20,5 +20,3 @@ function PlayerDetails(props) {
         </div>
     );
 }
-
-export default PlayerDetails;
