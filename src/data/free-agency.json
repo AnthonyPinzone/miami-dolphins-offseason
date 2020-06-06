@@ -384,6 +384,11 @@
             "position": "DE",
             "trade": true,
             "tradeDetails": "Traded to the Atlanta Falcons for a 2021 7th round pick."
+        },
+        {
+            "id": "REL031",
+            "name": "De'Lance Turner",
+            "position": "RB"
         }
     ],
     "undrafted": [
