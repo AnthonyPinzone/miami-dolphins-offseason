@@ -6,6 +6,7 @@ import PlayerMeta from "./PlayerMeta";
 import styles from "./DraftCard.module.scss";
 
 export default function DraftCard(props) {
+    console.log(props);
     return (
         <div className={`draft-card ${styles.draftCard}`}>
             {props.trade && <TradeAlert {...props.trade} />}
@@ -13,7 +14,7 @@ export default function DraftCard(props) {
             <PlayerDetails {...props.details} />
 
             <PlayerAnalysis
-                id={`${props.round}${props.roundPick}${props.overallPick}`}
+                id={`${props.meta.round}${props.meta.roundPick}${props.meta.overallPick}`}
                 {...props.analysis}
             />
 

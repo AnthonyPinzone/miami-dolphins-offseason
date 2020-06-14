@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceholderImage from "../images/prospect-placeholder.png";
+// import PlaceholderImage from "../images/prospect-placeholder.png";
 import styles from "./PlayerDetails.module.scss";
 
 export default function PlayerDetails(props) {
@@ -11,12 +11,14 @@ export default function PlayerDetails(props) {
                 </span>{" "}
                 {props.name ? props.name : "Player Name"}
             </h3>
+            {/* 
+            REMOVED 6/14 DUE TO NFL.COM REMOVING IMAGES
             <figure className="player-image">
                 <img
                     src={props.image ? props.image : PlaceholderImage}
                     alt={props.name}
                 />
-            </figure>
+            </figure> */}
         </div>
     );
 }

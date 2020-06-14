@@ -7,8 +7,9 @@
     display: flex;
     flex: 0 0 250px;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     order: 1;
+    padding: 10px 0;
     position: relative;
 
     @include media-breakpoint-only(sm) {
@@ -26,10 +27,14 @@
     font-family: "Quicksand", sans-serif;
     font-size: 0.75rem;
     font-weight: 600;
-    padding-top: 10px;
+    // padding-top: 10px;
     position: relative;
     text-shadow: none;
     text-transform: uppercase;
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 3px
+    }
 
     &::after {
         background-color: var(--miamiOrange);
