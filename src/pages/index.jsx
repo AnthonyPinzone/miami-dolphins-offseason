@@ -20,7 +20,7 @@ import DraftedPlayers from "../data/drafted-players.json";
 import FreeAgents from "../data/free-agency.json";
 
 export default () => {
-    const tabletSize = useMediaQuery("(min-width:768px)");
+    const isMobile = useMediaQuery("(max-width:767px)");
 
     return (
         <div className="page-wrapper">
@@ -28,10 +28,10 @@ export default () => {
                 <h1>Miami Dolphins Offseason 2020</h1>
             </Header>
 
-            {!tabletSize && <MobileNav />}
+            {isMobile && <MobileNav />}
 
             <main className="page-content">
-                <DraftResults players={DraftedPlayers.players} />
+                <DraftResults players={DraftedPlayers} />
                 <Sidebar id="freeAgency">
                     <IconHeader
                         icon={<SportsFootballOutlinedIcon />}
